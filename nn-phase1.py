@@ -33,10 +33,11 @@ def main():
     pX1 = 6.0 #y
     
     output = pX0*w0 + pX1*w1 + b #mx+b format basically
-    print('output for (',pX0,',',pX1,') = ',output)
+    print('output for ',output)
     
     if __name__ == "__main__":
-        sys.exit(int(main() or 0))
+        #sys.exit(int(main() or 0))
+        main()
     
     
     
